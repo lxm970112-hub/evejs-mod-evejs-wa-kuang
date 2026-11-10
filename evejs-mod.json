@@ -5,7 +5,7 @@
     "name": "雪风"
   },
   "category": "玩法",
-  "changelog": "增加了T2晶体使用；抹香鲸模块压矿",
+  "changelog": "",
   "conflicts": [],
   "delisted": false,
   "description": "自动创建霍克矿队：读取保存的「挖矿」「挖冰」配装；挖矿用 T2 晶体并自动补货；矿船环绕指挥 500m、每 5-10 分钟查仓交付；压缩模块每圈自动压缩范围内矿船。",
@@ -14,7 +14,7 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/lxm970112-hub/evejs-mod-evejs-wa-kuang/releases/download/v1.5.1/evejs-wa-kuang-1.5.1.zip"
+      "url": "https://github.com/lxm970112-hub/evejs-mod-evejs-wa-kuang/releases/download/v1.5.3/evejs-wa-kuang-1.5.3.zip"
     }
   ],
   "evejsVersions": [
@@ -26,13 +26,12 @@
   "id": "evejs-wa-kuang",
   "publishedAt": "2026-11-10",
   "readme": [
-    "```text\n/挖矿 [人数]        → 挖矿模式：随机 30-100 人，按保存的「挖矿」配装，矿枪装对应 T2 晶体\n/挖冰 [人数]        → 挖冰模式：随机 30-100 人，按保存的「挖冰」配装，冰矿枪不用晶体\n/挖矿 100           → 正好 100 人\n/挖矿 haul          → 立即收矿/压缩/交付\n```",
-    "也可以写 `/wakuang ore [人数]`、`/wakuang ice [人数]`、`/wakuang status|haul|recall|mine|stop|help`。\n找大肥鱼许愿的，有什么BUG要你们自己修了，可能我这里不触发，你那里触发了"
+    "首先你自己在太空中创建一只舰队，然后根据你要挖的什么矿使用下面代码召唤挖矿NPC\n/wakuang 50          # 挖矿 50 人\n/wakuang start 50    # 同上\n/wakuang ice 50      # 挖冰 50 人\n/wakuang             # 不写人数，随机 30-100\n找大肥鱼许愿的，有什么BUG要你们自己修了，可能我这里不触发，你那里触发了"
   ],
   "repo": "https://github.com/lxm970112-hub/evejs-mod-evejs-wa-kuang",
   "requiresRestart": true,
-  "sha256": "34f2b762a8c88f887a5c20b89c6be47f7e305d4919542fe3c65657dbcf9e944f",
-  "sizeBytes": 77141,
+  "sha256": "49d0f66637f0de5696285c5077a22a79e650eb4706dd0e7c06c1f6c1fa9941d2",
+  "sizeBytes": 74477,
   "tags": [
     "采矿",
     "矿队",
@@ -40,5 +39,5 @@
     "NPC",
     "自动"
   ],
-  "version": "1.5.1"
+  "version": "1.5.3"
 }
