@@ -14,7 +14,7 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/lxm970112-hub/evejs-mod-evejs-wa-kuang/releases/download/v1.5.3/evejs-wa-kuang-1.5.3.zip"
+      "url": "https://github.com/lxm970112-hub/evejs-mod-evejs-wa-kuang/releases/download/v1.5.6/evejs-wa-kuang-1.5.6.zip"
     }
   ],
   "evejsVersions": [
@@ -24,14 +24,14 @@
   "highlights": [],
   "history": [],
   "id": "evejs-wa-kuang",
-  "publishedAt": "2026-11-10",
+  "publishedAt": "2026-11-12",
   "readme": [
     "首先你自己在太空中创建一只舰队，然后根据你要挖的什么矿使用下面代码召唤挖矿NPC\n/wakuang 50          # 挖矿 50 人\n/wakuang start 50    # 同上\n/wakuang ice 50      # 挖冰 50 人\n/wakuang             # 不写人数，随机 30-100\n找大肥鱼许愿的，有什么BUG要你们自己修了，可能我这里不触发，你那里触发了"
   ],
   "repo": "https://github.com/lxm970112-hub/evejs-mod-evejs-wa-kuang",
   "requiresRestart": true,
-  "sha256": "49d0f66637f0de5696285c5077a22a79e650eb4706dd0e7c06c1f6c1fa9941d2",
-  "sizeBytes": 74477,
+  "sha256": "5a5d881ff605a63580b87a1f62838025057fabd6cc41e84461b9455189beaca5",
+  "sizeBytes": 77361,
   "tags": [
     "采矿",
     "矿队",
@@ -39,5 +39,5 @@
     "NPC",
     "自动"
   ],
-  "version": "1.5.3"
+  "version": "1.5.6"
 }
