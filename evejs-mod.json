@@ -5,7 +5,7 @@
     "name": "雪风"
   },
   "category": "玩法",
-  "changelog": "修复了矿船吃不到加成的BUG",
+  "changelog": "",
   "conflicts": [],
   "delisted": false,
   "description": "自动创建霍克矿队：读取保存的「挖矿」「挖冰」配装；挖矿用 T2 晶体并自动补货；矿船环绕指挥 500m、每 5-10 分钟查仓交付；压缩模块每圈自动压缩范围内矿船。",
@@ -14,11 +14,13 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/lxm970112-hub/evejs-mod-evejs-wa-kuang/releases/download/v1.5.21/evejs-wa-kuang-1.5.21.zip"
+      "url": "https://github.com/lxm970112-hub/evejs-mod-evejs-wa-kuang/releases/download/v1.5.22/evejs-wa-kuang-1.5.22.zip"
     }
   ],
   "evejsVersions": [
-    "261028.x"
+    "261028.x",
+    "261108.x",
+    "261108.1"
   ],
   "featured": false,
   "highlights": [],
@@ -30,8 +32,8 @@
   ],
   "repo": "https://github.com/lxm970112-hub/evejs-mod-evejs-wa-kuang",
   "requiresRestart": true,
-  "sha256": "2ea011b53680879f10cea97bcfdb14c5fd8d064279c0cdc1bcd5c631ba833c73",
-  "sizeBytes": 89620,
+  "sha256": "06111d697f72628a87d79951190d2236b203d9b276f4418f251ad590ab79666e",
+  "sizeBytes": 89679,
   "tags": [
     "采矿",
     "矿队",
@@ -39,5 +41,5 @@
     "NPC",
     "自动"
   ],
-  "version": "1.5.21"
+  "version": "1.5.22"
 }
