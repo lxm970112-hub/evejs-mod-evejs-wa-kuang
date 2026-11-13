@@ -14,7 +14,7 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/lxm970112-hub/evejs-mod-evejs-wa-kuang/releases/download/v1.5.11/evejs-wa-kuang-1.5.11.zip"
+      "url": "https://github.com/lxm970112-hub/evejs-mod-evejs-wa-kuang/releases/download/v1.5.14/evejs-wa-kuang-1.5.14.zip"
     }
   ],
   "evejsVersions": [
@@ -30,8 +30,8 @@
   ],
   "repo": "https://github.com/lxm970112-hub/evejs-mod-evejs-wa-kuang",
   "requiresRestart": true,
-  "sha256": "093539fc7eac1aaaa4782abdb74d8dd378c1817004900d0b350296cd2d7838fc",
-  "sizeBytes": 78990,
+  "sha256": "7f1a6d752bc20632a8998f9e1b7d30a5416cfae43a6530f2b6dec1068af8a120",
+  "sizeBytes": 80789,
   "tags": [
     "采矿",
     "矿队",
@@ -39,5 +39,5 @@
     "NPC",
     "自动"
   ],
-  "version": "1.5.11"
+  "version": "1.5.14"
 }
