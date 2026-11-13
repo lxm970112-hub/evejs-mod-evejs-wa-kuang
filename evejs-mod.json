@@ -5,7 +5,7 @@
     "name": "雪风"
   },
   "category": "玩法",
-  "changelog": "",
+  "changelog": "常规交付 / 抛矿回收两种模式\n压缩续航按“原矿体积折算”计算，不会压缩后永远不回家\n读取大鲸鱼压缩模块实时射程，压缩循环和矿船距离自动匹配\n异常矿带 40km 内没矿时自动放宽到 120km\n/wakuang jet [人数]\n/wakuang 抛矿 [人数]\n/wakuang 常规",
   "conflicts": [],
   "delisted": false,
   "description": "自动创建霍克矿队：读取保存的「挖矿」「挖冰」配装；挖矿用 T2 晶体并自动补货；矿船环绕指挥 500m、每 5-10 分钟查仓交付；压缩模块每圈自动压缩范围内矿船。",
@@ -14,7 +14,7 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/lxm970112-hub/evejs-mod-evejs-wa-kuang/releases/download/v1.5.14/evejs-wa-kuang-1.5.14.zip"
+      "url": "https://github.com/lxm970112-hub/evejs-mod-evejs-wa-kuang/releases/download/v1.5.16/evejs-wa-kuang-1.5.16.zip"
     }
   ],
   "evejsVersions": [
@@ -30,8 +30,8 @@
   ],
   "repo": "https://github.com/lxm970112-hub/evejs-mod-evejs-wa-kuang",
   "requiresRestart": true,
-  "sha256": "7f1a6d752bc20632a8998f9e1b7d30a5416cfae43a6530f2b6dec1068af8a120",
-  "sizeBytes": 80789,
+  "sha256": "2c80cceb3c3fcc49b7a7a3e3847cdca38ccfc323046c7734b78a6c666217c20f",
+  "sizeBytes": 88359,
   "tags": [
     "采矿",
     "矿队",
@@ -39,5 +39,5 @@
     "NPC",
     "自动"
   ],
-  "version": "1.5.14"
+  "version": "1.5.16"
 }
