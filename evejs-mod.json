@@ -5,7 +5,7 @@
     "name": "雪风"
   },
   "category": "玩法",
-  "changelog": "有问题群里面说，我测试我没有问题",
+  "changelog": "",
   "conflicts": [],
   "delisted": false,
   "description": "自动创建霍克矿队：读取保存的「挖矿」「挖冰」配装；挖矿用 T2 晶体并自动补货；矿船环绕指挥 500m、每 5-10 分钟查仓交付；压缩模块每圈自动压缩范围内矿船。",
@@ -14,7 +14,7 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/lxm970112-hub/evejs-mod-evejs-wa-kuang/releases/download/v1.5.49/evejs-wa-kuang-1.5.49.zip"
+      "url": "https://github.com/lxm970112-hub/evejs-mod-evejs-wa-kuang/releases/download/v1.5.58/evejs-wa-kuang-1.5.58.zip"
     }
   ],
   "evejsVersions": [
@@ -29,14 +29,14 @@
   "highlights": [],
   "history": [],
   "id": "evejs-wa-kuang",
-  "publishedAt": "2026-11-17",
+  "publishedAt": "2026-11-19",
   "readme": [
     "首先你自己在太空中创建一只舰队，然后根据你要挖的什么矿使用下面代码召唤挖矿NPC\n/wakuang 50       挖矿 50 人\n/wabing 50        挖冰 50 人\n/kuangdui 50      矿队 50 人（等于挖矿）\n/wakuang          随机 30-100 人\n/wakuang ore 50       挖矿\n/wakuang ice 50       挖冰\n/wakuang paokuang 50  抛矿回收\n/wakuang changgui 50  常规交付\n/wakuang shijian 修改压缩矿扫描时间\n常规交付：矿船自己飞回大鲸鱼，卸进舰队机库，不需要 MTU。\n抛矿回收：矿船原地抛压缩矿，需要先部署自动牵引货柜（MTU），再由模组把货柜里的压缩矿转进大鲸鱼机库。\n找大肥鱼许愿的，有什么BUG要你们自己修了，可能我这里不触发，你那里触发了"
   ],
   "repo": "https://github.com/lxm970112-hub/evejs-mod-evejs-wa-kuang",
   "requiresRestart": true,
-  "sha256": "2e6507df192ebf842015ec7806513cfd3cff4150af4b25e232ededdee635f37c",
-  "sizeBytes": 98361,
+  "sha256": "d6170f23ed93f3a791671d22b41b4d46b2b19ef3c3857664a331090ccdebf027",
+  "sizeBytes": 98503,
   "tags": [
     "采矿",
     "矿队",
@@ -44,5 +44,5 @@
     "NPC",
     "自动"
   ],
-  "version": "1.5.49"
+  "version": "1.5.58"
 }
